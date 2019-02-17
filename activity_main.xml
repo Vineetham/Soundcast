@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#FBF8EF"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="420dp"
+            android:layout_height="40dp"
+            android:text="Music Library"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnMusic"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_gravity = "center"
+
+            android:text="Tum Hi Ho"
+           />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/song"/>
+
+
+        <Button
+            android:id="@+id/btnMusic1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_gravity = "center"
+
+            android:text="Pehla Nasha" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-60dp"
+            android:layout_marginBottom="5dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/songa"/>
+
+
+
+        <Button
+            android:id="@+id/btnMusic2"
+
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_gravity = "center"
+
+            android:text="Kaun Tujhe" />
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-60dp"
+            android:layout_marginBottom="5dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/songb"/>
+
+
+
+        <Button
+            android:id="@+id/btnMusic3"
+
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_gravity = "center"
+            android:text="Teri Meri" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_marginTop="-60dp"
+            android:layout_marginBottom="5dp"
+
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/songc"/>
+
+
+
+        <Button
+            android:id="@+id/btnMusic4"
+
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_gravity = "center"
+            android:text="Zara Zara" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+
+            android:layout_marginTop="-60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/songd"/>
+
+        <Button
+            android:id="@+id/btnMusic5"
+
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_gravity = "center"
+
+            android:text="Add Music"
+            android:textSize="30dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
